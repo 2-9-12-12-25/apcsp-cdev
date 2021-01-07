@@ -57,7 +57,7 @@ else
   printf("false: %d == 0 || %d == 0\n", a, b);
 
   // not equal to 0
-if(a != 0)
+if(!(a == 0))
   printf("true: !(%d == 0)\n", a);
 else
   printf("false: !(%d == 0)\n", a);
